@@ -16,7 +16,7 @@ def open_web_app():
 if __name__ == "__main__":
     # Menú rápido para elegir la experiencia
     print("=" * 60)
-    print("💛 FLORES AMARILLAS PARA MIMI 🐰✨")
+    print("💛 FLORES AMARILLAS PARA MI CONEJITA MIMI 🐰")
     print("=" * 60)
     print("1. Ejecutar Programa de Escritorio en Python (Tkinter)")
     print("2. Abrir Experiencia Web Interactiva (Con Música y Cartita)")

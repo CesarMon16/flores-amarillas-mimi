@@ -578,13 +578,13 @@ class FloresAmarillasApp:
         # Línea 1: "✨ Feliz 21 de Septiembre ✨"
         self.canvas.create_text(
             cx + 2, y_top + 2,
-            text="✨ Feliz 21 de Septiembre ✨",
+            text="💌 Feliz 21 de Septiembre 💌",
             font=("Georgia", 24, "bold"),
             fill=glow_color
         )
         self.canvas.create_text(
             cx, y_top,
-            text="✨ Feliz 21 de Septiembre ✨",
+            text="💌 Feliz 21 de Septiembre 💌",
             font=("Georgia", 24, "bold"),
             fill="#FFD700"  # Toque dorado festivo
         )

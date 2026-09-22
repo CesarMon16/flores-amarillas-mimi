@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
   <!-- Google Fonts elegantes y románticas -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,400;1,600&family=Sacramento&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,400;1,600&family=Sacramento&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <!-- Canvas de fondo para partículas, estrellas y pétalos -->
   <canvas id="bg-canvas"></canvas>
@@ -18,19 +22,20 @@
   <main id="intro-screen" class="screen active">
     <div class="intro-container">
       <div class="bunny-greeting">
-        <span class="sparkle-icon">✨</span>
+        <span class="sparkle-icon">🤍</span>
         <span class="intro-tag">Un detalle especial para ti</span>
-        <span class="sparkle-icon">✨</span>
+        <span class="sparkle-icon">🤍</span>
       </div>
       <h2 class="intro-title">Para mi conejita Mimi 🐰💛</h2>
       <p class="intro-subtitle">Hoy es un día especial... toca el corazón para descubrir tu regalo</p>
-      
+
       <div class="pulse-wrapper">
         <div class="glow-ring"></div>
         <div class="glow-ring delay"></div>
         <button id="start-btn" class="heart-pulse-btn" aria-label="Abrir sorpresa">
           <svg class="heart-svg" viewBox="0 0 32 32">
-            <path d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c0.841-9.945,14-8.902,14,0.454 C30,20.335,16,28.261,16,28.261z" />
+            <path
+              d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c0.841-9.945,14-8.902,14,0.454 C30,20.335,16,28.261,16,28.261z" />
           </svg>
           <span class="btn-text">TÓCAME AQUÍ</span>
           <span class="btn-subtext">💛 Con mucho amor 💛</span>
@@ -61,9 +66,11 @@
       <div class="bunny-bubble">¡Te amo mucho! 🐰💛</div>
       <svg class="mimi-bunny-svg" viewBox="0 0 100 100">
         <!-- Orejas -->
-        <ellipse cx="38" cy="22" rx="7" ry="20" fill="#FFF5F7" stroke="#FFB6C1" stroke-width="2" transform="rotate(-10 38 22)" />
+        <ellipse cx="38" cy="22" rx="7" ry="20" fill="#FFF5F7" stroke="#FFB6C1" stroke-width="2"
+          transform="rotate(-10 38 22)" />
         <ellipse cx="38" cy="22" rx="4" ry="14" fill="#FFB7D5" transform="rotate(-10 38 22)" />
-        <ellipse cx="62" cy="22" rx="7" ry="20" fill="#FFF5F7" stroke="#FFB6C1" stroke-width="2" transform="rotate(10 62 22)" />
+        <ellipse cx="62" cy="22" rx="7" ry="20" fill="#FFF5F7" stroke="#FFB6C1" stroke-width="2"
+          transform="rotate(10 62 22)" />
         <ellipse cx="62" cy="22" rx="4" ry="14" fill="#FFB7D5" transform="rotate(10 62 22)" />
         <!-- Cabeza y cuerpo -->
         <circle cx="50" cy="55" r="26" fill="#FFF5F7" stroke="#FFB6C1" stroke-width="2" />
@@ -88,7 +95,7 @@
     <!-- Botón para ver Cartita de Amor -->
     <div id="action-buttons" class="action-buttons">
       <button id="letter-toggle-btn" class="secondary-btn">
-        💌 Abrir cartita para Mimi
+        💌 Toca para abrir tu cartita, mi niña 💌
       </button>
       <button id="music-toggle-btn" class="secondary-btn music-btn">
         🎵 <span id="music-text">Música Romántica</span>
@@ -102,18 +109,21 @@
     <div class="letter-card">
       <button id="close-letter-btn" class="close-btn" aria-label="Cerrar carta">&times;</button>
       <div class="letter-header">
-        <span class="letter-stamp">💛 21 Sept</span>
+        <span class="letter-stamp"> Septiembre 21 💛</span>
         <h3>Para mi hermosa Mimi 🐰</h3>
       </div>
       <div class="letter-body">
-        <p>Mi amor,</p>
-        <p>Hoy 21 de septiembre la tradición dice que se regalan flores amarillas a quien quieres tener a tu lado para siempre... y yo no tengo ninguna duda de que tú eres esa personita especial.</p>
-        <p>Gracias por cada sonrisa, por cada abrazo y por iluminar mi mundo con tu ternura infinita. Estas flores amarillas son un pedacito de todo el amor tan inmenso que siento por ti.</p>
-        <p class="letter-sign">Siempre tuyo,<br><strong>¡Te amo infinitamente! 💖</strong></p>
+        <p>Mi bebe hemorsha,</p>
+        <p>Hoy 21 de septiembre la tradición dice que se regalan flores amarillas a quien quieres tener a tu lado para
+          siempre... y yo no tengo ninguna duda de que tú eres esa personita especial.</p>
+        <p>Gracias por cada sonrisa, por cada abrazo y por iluminar mi mundo con tu ternura infinita. Estas flores
+          amarillas son un pedacito de todo el amor tan inmenso que siento por ti.</p>
+        <p class="letter-sign">Siempre tuyo,<br><strong>Te amo muchos billons de billons 💖💖💖</strong></p>
       </div>
     </div>
   </div>
 
   <script src="app.js"></script>
 </body>
+
 </html>
